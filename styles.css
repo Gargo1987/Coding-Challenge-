@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') fixed center/cover;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 300px;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    padding: 100px 70px;
+}
+
+.logo {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    color: lime;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.button-container {
+    background-color: lime;
+    border-radius: 5px;
+}
+
+.button {
+    height: 30px;
+    margin: 10px;
+    font-size: 1em;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    border: solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #757676;
+}
+
+.monopattino {
+    margin: 0;
+}
+
+.checkbox-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: baseline;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="checkbox"] + label {
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold;
+}
+
+.indirizzo {
+    margin-left: 5px;
+    text-align: left;
+}
+
+h3 {
+    display: inline-block;
+    text-align: left;
+    font-size: 16px;
+    margin: 5px;
+}
+
+h4 {
+    text-align: left;
+    margin: 5px;
+}
+
+
+.carica1 {
+    width: 350px;
+    height: 30px;
+    background-color: #efc11c;
+}
+
+.carica2 {
+    width: 550px;
+    height: 30px;
+    background-color: #02e206;
+}
+
+.carica3 {
+    width: 170px;
+    height: 30px;
+    background-color: #fe0000;
+}
